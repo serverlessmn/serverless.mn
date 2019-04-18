@@ -40,8 +40,8 @@ const Main = () => (
 
 const About = () => (
     <div className="content is-vcentered">
-        <h2 className="title">The meetup for serverless technologies in Minnesota.</h2>
-        <h3 className="subtitle">
+        <h2 className="title has-text-centered-mobile">The meetup for serverless technologies in Minnesota.</h2>
+        <h3 className="subtitle is-hidden-mobile">
             <em>Join us for our Kickoff Event on May 20th!</em>
         </h3>
     </div>
