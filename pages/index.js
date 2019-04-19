@@ -21,11 +21,11 @@ const Main = () => (
         <div className="hero-body has-bg-img" style={{ overflow: 'hidden' }}>
             <div className="container is-vcentered">
                 <section className="section">
-                    <div className="columns">
-                        <div className="column is-three-quarters">
+                    <div className="columns is-desktop">
+                        <div className="column is-three-quarters-desktop">
                             <About />
                         </div>
-                        <div className="column is-one-quarter">
+                        <div className="column is-one-quarter-desktop">
                             <Schedule />
                         </div>
                     </div>
@@ -40,10 +40,7 @@ const Main = () => (
 
 const About = () => (
     <div className="content is-vcentered">
-        <h2 className="title has-text-centered-mobile">The meetup for serverless technologies in Minnesota.</h2>
-        <h3 className="subtitle is-hidden-mobile">
-            <em>Join us for our Kickoff Event on May 20th!</em>
-        </h3>
+        <h2 className="title has-text-centered-mobile has-text-centered-tablet">The meetup for serverless technologies in Minnesota.</h2>
     </div>
 )
 
@@ -53,6 +50,7 @@ const Schedule = () => (
         <div className="content">
             <p className="subtitle has-text-weight-semibold">Serverless MN Kickoff</p>
             <p>May 20, 2019, 6pm – 8pm at <a href="https://goo.gl/maps/qLB3ZG3YakXL3gQ57">MentorMate</a>.</p>
+            <p>with guest speaker <a href="https://www.meetup.com/Serverless-MN/events/259963625/">Lynn Langit</a></p>
             <div className="content has-text-centered">
                 <CTA content={`RSVP on Meetup.com`} href={"https://meetup.com/serverless-mn"} arity={"info"} />
             </div>
