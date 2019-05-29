@@ -19,10 +19,12 @@ const Main = () => (
       />
     </Head>
     <div className="flex flex-col h-screen justify-between">
-      <div className="justify-center align-center flex py-4">
-        <img alt="serverless mn" src="./static/full_logo.svg" className="sm:max-w-12" />
-      </div>
-      <div className="justify-center align-center flex flex-col py-8">
+      <img
+        alt="serverless mn"
+        src="./static/full_logo.svg"
+        className="pt-8 px-8 mx-auto max-w-8"
+      />
+      <div className="py-4 md:py-8 mx-auto">
         <About />
         <Schedule />
       </div>
@@ -87,7 +89,7 @@ const CTA = ({ content, href = "#" }) => (
 );
 
 const Footer = () => (
-  <footer className="py-16 sm:mx-8 sm:max-w-8">
+  <footer className="pb-8 sm:mx-8 sm:max-w-8">
     <Sponsors />
     <div className="pt-4 text-center">
       <p>
