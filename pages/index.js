@@ -13,6 +13,7 @@ const Main = () => (
         content="https://serverless.mn/static/full_logo.svg"
       />
       <meta property="description" />
+      <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
     </Head>
     <div className="flex flex-col h-screen justify-between">
       <div className="justify-center align-center flex py-4">
