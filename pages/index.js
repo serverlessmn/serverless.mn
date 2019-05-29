@@ -13,25 +13,18 @@ const Main = () => (
         content="https://serverless.mn/static/full_logo.svg"
       />
       <meta property="description" />
-      <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+      <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1, maximum-scale=1"
+      />
     </Head>
     <div className="flex flex-col h-screen justify-between">
       <div className="justify-center align-center flex py-4">
-        <img alt="serverless mn" src="./static/full_logo.svg" />
+        <img alt="serverless mn" src="./static/full_logo.svg" className="sm:max-w-12" />
       </div>
-      <div className="justify-center align-center flex py-8">
-        <div className="justify-center">
-          {/* <section className="section"> */}
-          <div className="">
-            <div className="">
-              <About />
-            </div>
-            <div className="">
-              <Schedule />
-            </div>
-          </div>
-          {/* </section> */}
-        </div>
+      <div className="justify-center align-center flex flex-col py-8">
+        <About />
+        <Schedule />
       </div>
       <Footer />
     </div>
@@ -94,20 +87,25 @@ const CTA = ({ content, href = "#" }) => (
 );
 
 const Footer = () => (
-  <footer className="py-16">
+  <footer className="py-16 sm:mx-8 sm:max-w-8">
     <Sponsors />
     <div className="pt-4 text-center">
       <p>
         By participating in Serverless MN spaces, online and IRL, you agree to
         our{" "}
-        <a href="https://docs.google.com/document/d/1H83dbg5kmoVU5xT_zZw42gzfqDPtDGAmmGphKTfP2dE/edit?usp=sharing" className="underline">
+        <a
+          href="https://docs.google.com/document/d/1H83dbg5kmoVU5xT_zZw42gzfqDPtDGAmmGphKTfP2dE/edit?usp=sharing"
+          className="underline"
+        >
           code of conduct
         </a>
         .
       </p>
       <p className="">
         Contact the organizers:{" "}
-        <a href="mailto:hello@serverless.mn" className="underline">hello@serverless.mn</a>
+        <a href="mailto:hello@serverless.mn" className="underline">
+          hello@serverless.mn
+        </a>
       </p>
     </div>
   </footer>
