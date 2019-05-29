@@ -10,7 +10,7 @@ const Main = () => (
       <meta property="og:url" content="https://serverless.mn" />
       <meta
         property="og:image"
-        content="https://serverless.mn/static/full_logo.svg"
+        content="https://serverless.mn/static/serverlessmn.png"
       />
       <meta property="description" />
       <meta
