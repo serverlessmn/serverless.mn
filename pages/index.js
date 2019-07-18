@@ -43,7 +43,7 @@ const Schedule = () => (
   <div className="text-center">
     <h2 className="text-xl font-medium pt-2">Upcoming Event:</h2>
     <div className="py-4">
-      <p className="text-lg font-medium pb-2">June Meetup: Micronaut</p>
+      <p className="text-lg font-medium pb-2">June Meetup: How to get started with the Serverless framework in your dev environment</p>
       <p className="py-1">
         June 25, 2019, 6pm – 8pm at{" "}
         <a className="underline" href="https://goo.gl/maps/qLB3ZG3YakXL3gQ57">
@@ -54,10 +54,10 @@ const Schedule = () => (
       <p className="py-1">
         with guest speaker{" "}
         <a
-          href="https://www.meetup.com/Serverless-MN/events/261854202/"
+          href="https://www.meetup.com/Serverless-MN/events/262613418/"
           className="underline"
         >
-          Jeff Scott Brown.
+          AJ Stuyvenberg
         </a>
       </p>
       <div className="mt-8">
