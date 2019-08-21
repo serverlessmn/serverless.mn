@@ -26,7 +26,15 @@ const Main = () => (
       />
       <div className="py-4 md:py-8 mx-auto">
         <About />
-        <Schedule />
+        <div className="text-center">
+          <div className="mt-8">
+            <CTA
+              content="RSVP on Meetup.com"
+              href={"https://meetup.com/serverless-mn"}
+              arity={"info"}
+            />
+          </div>
+        </div>
       </div>
       <Footer />
     </div>
@@ -39,37 +47,38 @@ const About = () => (
   </h2>
 );
 
-const Schedule = () => (
-  <div className="text-center">
-    <h2 className="text-xl font-medium pt-2">Upcoming Event:</h2>
-    <div className="py-4">
-      <p className="text-lg font-medium pb-2">June Meetup: How to get started with the Serverless framework in your dev environment</p>
-      <p className="py-1">
-        June 25, 2019, 6pm – 8pm at{" "}
-        <a className="underline" href="https://goo.gl/maps/qLB3ZG3YakXL3gQ57">
-          MentorMate
-        </a>
-        .
-      </p>
-      <p className="py-1">
-        with guest speaker{" "}
-        <a
-          href="https://www.meetup.com/Serverless-MN/events/262613418/"
-          className="underline"
-        >
-          AJ Stuyvenberg
-        </a>
-      </p>
-      <div className="mt-8">
-        <CTA
-          content="RSVP on Meetup.com"
-          href={"https://meetup.com/serverless-mn"}
-          arity={"info"}
-        />
-      </div>
-    </div>
-  </div>
-);
+// TODO: Reinstate schedule block when we can remember to update the site.
+// const Schedule = () => (
+//   <div className="text-center">
+//     <h2 className="text-xl font-medium pt-2">Upcoming Event:</h2>
+//     <div className="py-4">
+//       <p className="text-lg font-medium pb-2">June Meetup: How to get started with the Serverless framework in your dev environment</p>
+//       <p className="py-1">
+//         June 25, 2019, 6pm – 8pm at{" "}
+//         <a className="underline" href="https://goo.gl/maps/qLB3ZG3YakXL3gQ57">
+//           MentorMate
+//         </a>
+//         .
+//       </p>
+//       <p className="py-1">
+//         with guest speaker{" "}
+//         <a
+//           href="https://www.meetup.com/Serverless-MN/events/262613418/"
+//           className="underline"
+//         >
+//           AJ Stuyvenberg
+//         </a>
+//       </p>
+//       <div className="mt-8">
+//         <CTA
+//           content="RSVP on Meetup.com"
+//           href={"https://meetup.com/serverless-mn"}
+//           arity={"info"}
+//         />
+//       </div>
+//     </div>
+//   </div>
+// );
 
 const Sponsors = () => (
   <section className="text-center">
