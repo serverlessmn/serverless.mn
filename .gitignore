@@ -85,3 +85,6 @@ typings/
 
 # macOS files
 .DS_Store
+
+# build output
+out/
