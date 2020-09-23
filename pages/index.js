@@ -28,6 +28,12 @@ const Main = () => (
         <About />
         <div className="text-center">
           <div className="mt-8">
+            <a href="https://meetup.com/serverless-mn">
+              <img
+                src="static/MeetupHeader.png"
+                className={"w-2/3 mx-auto my-0 pb-8"}
+              />
+            </a>
             <CTA
               content="RSVP on Meetup.com"
               href={"https://meetup.com/serverless-mn"}
@@ -92,7 +98,10 @@ const Sponsors = () => (
 );
 
 const CTA = ({ content, href = "#" }) => (
-  <a className={`px-3 py-2 bg-blue-600 text-white rounded`} href={href}>
+  <a
+    className={`px-3 py-2 bg-orange-500 text-white font-bold rounded`}
+    href={href}
+  >
     {content}
   </a>
 );
