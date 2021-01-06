@@ -69,7 +69,7 @@ const Schedule = () => (
       <div className="mt-8">
         <CTA
           content="RSVP on Meetup.com"
-          href={"https://meetup.com/serverless-mn"}
+          href={"https://www.meetup.com/Serverless-MN/events/275564598/"}
           arity={"info"}
         />
       </div>
