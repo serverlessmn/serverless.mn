@@ -28,17 +28,7 @@ const Main = () => (
         <About />
         <div className="text-center">
           <div className="mt-8">
-            <a href="https://meetup.com/serverless-mn">
-              <img
-                src="static/MeetupHeader.png"
-                className={"w-2/3 mx-auto my-0 pb-8"}
-              />
-            </a>
-            <CTA
-              content="RSVP on Meetup.com"
-              href={"https://meetup.com/serverless-mn"}
-              arity={"info"}
-            />
+            <Schedule />
           </div>
         </div>
       </div>
@@ -54,37 +44,38 @@ const About = () => (
 );
 
 // TODO: Reinstate schedule block when we can remember to update the site.
-// const Schedule = () => (
-//   <div className="text-center">
-//     <h2 className="text-xl font-medium pt-2">Upcoming Event:</h2>
-//     <div className="py-4">
-//       <p className="text-lg font-medium pb-2">June Meetup: How to get started with the Serverless framework in your dev environment</p>
-//       <p className="py-1">
-//         June 25, 2019, 6pm – 8pm at{" "}
-//         <a className="underline" href="https://goo.gl/maps/qLB3ZG3YakXL3gQ57">
-//           MentorMate
-//         </a>
-//         .
-//       </p>
-//       <p className="py-1">
-//         with guest speaker{" "}
-//         <a
-//           href="https://www.meetup.com/Serverless-MN/events/262613418/"
-//           className="underline"
-//         >
-//           AJ Stuyvenberg
-//         </a>
-//       </p>
-//       <div className="mt-8">
-//         <CTA
-//           content="RSVP on Meetup.com"
-//           href={"https://meetup.com/serverless-mn"}
-//           arity={"info"}
-//         />
-//       </div>
-//     </div>
-//   </div>
-// );
+const Schedule = () => (
+  <div className="text-center">
+    <div className="py-4">
+      <p className="text-xl font-medium pb-2">
+        January 2021 Meetup: Create an Application Backend in Clicks with the
+        Amplify Admin UI
+      </p>
+      <p className="py-1">January 25, 2021, 630pm – 8pm central. (Online)</p>
+      <p className="py-1">
+        with guest speaker{" "}
+        <a
+          href="https://www.meetup.com/Serverless-MN/events/275564598/"
+          className="underline"
+        >
+          Ali Spittel
+        </a>
+        <img
+          alt="Ali Spittel"
+          src="./static/ali_spittel_headshot.jpg"
+          className="rounded-full pt-8 px-8 mx-auto max-w-8"
+        />
+      </p>
+      <div className="mt-8">
+        <CTA
+          content="RSVP on Meetup.com"
+          href={"https://www.meetup.com/Serverless-MN/events/275564598/"}
+          arity={"info"}
+        />
+      </div>
+    </div>
+  </div>
+);
 
 const Sponsors = () => (
   <section className="text-center">
