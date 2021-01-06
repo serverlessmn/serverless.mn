@@ -63,7 +63,7 @@ const Schedule = () => (
         <img
           alt="Ali Spittel"
           src="./static/ali_spittel_headshot.jpg"
-          className="pt-8 px-8 mx-auto max-w-8"
+          className="rounded-full pt-8 px-8 mx-auto max-w-8"
         />
       </p>
       <div className="mt-8">
