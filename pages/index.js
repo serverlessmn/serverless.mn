@@ -57,12 +57,12 @@ const Schedule = () => (
           href="https://www.meetup.com/Serverless-MN/events/277689329/"
           className="underline"
         >
-          Byrson Tyrrell
+          Bryson Tyrrell
         </a>
         <img
           alt="Bryson Tyrrell"
           src="./static/bryson_tyrrell_headshot.png"
-          className="rounded-full pt-8 px-8 mx-auto max-w-8"
+          className="rounded-full pt-8 px-8 mx-auto max-w-xl"
         />
       </p>
       <div className="mt-8">
