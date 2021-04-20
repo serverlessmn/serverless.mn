@@ -48,28 +48,27 @@ const Schedule = () => (
   <div className="text-center">
     <div className="py-4">
       <p className="text-xl font-medium pb-2">
-        January 2021 Meetup: Create an Application Backend in Clicks with the
-        Amplify Admin UI
+        April 2021 Meetup: Build, deploy, and release like a pro! CI/CD for SAM
       </p>
-      <p className="py-1">January 25, 2021, 630pm – 8pm central. (Online)</p>
+      <p className="py-1">April 26, 2021, 630pm – 8pm central. (Online)</p>
       <p className="py-1">
         with guest speaker{" "}
         <a
-          href="https://www.meetup.com/Serverless-MN/events/275564598/"
+          href="https://www.meetup.com/Serverless-MN/events/277689329/"
           className="underline"
         >
-          Ali Spittel
+          Bryson Tyrrell
         </a>
         <img
-          alt="Ali Spittel"
-          src="./static/ali_spittel_headshot.jpg"
-          className="rounded-full pt-8 px-8 mx-auto max-w-8"
+          alt="Bryson Tyrrell"
+          src="./static/bryson_tyrrell_headshot.png"
+          className="rounded-full pt-8 px-8 mx-auto max-w-xl"
         />
       </p>
       <div className="mt-8">
         <CTA
           content="RSVP on Meetup.com"
-          href={"https://www.meetup.com/Serverless-MN/events/275564598/"}
+          href={"https://www.meetup.com/Serverless-MN/events/277689329/"}
           arity={"info"}
         />
       </div>
